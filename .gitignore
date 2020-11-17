@@ -1,0 +1,43 @@
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.js
+
+# testing
+/frontend/coverage
+
+# production
+/frontend/build
+
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# tailwind generated css file
+/frontend/src/css/main.css
+
+# python virtualenv
+/.venv
+# python cache
+__pycache__/
+
+# environment variables
+.env
+
+# sqlite if used
+db.sqlite3
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vim swap files
+*.swp
+*.swo
+
+# editor files
+.idea/
+.vscode/
