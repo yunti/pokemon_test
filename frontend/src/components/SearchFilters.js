@@ -37,9 +37,9 @@ const SearchFilters = (props) => {
         </button>
       </div>
       <div className={`h-full ${isOpen ? "block" : "hidden"} xl:block`}>
-        <form className="xl:flex xl:flex-col xl:justify-between xl:h-full">
+        <form className="xl:flex xl:flex-col xl:justify-between xl:h-full border-gray-300 border-r">
           <div className="lg:flex xl:block xl:overflow-y-auto">
-            <div className="px-4 py-4 border-t border-gray-400 lg:w-1/3 xl:w-full">
+            <div className="px-4 py-4 border-t border-gray-300 lg:w-1/3 xl:w-full">
               <div className="flex flex-wrap -mx-2">
                 <label
                   htmlFor=""
@@ -89,7 +89,7 @@ const SearchFilters = (props) => {
                 </label>
               </div>
             </div>
-            <div className="px-4 py-4 border-t border-l border-gray-400 lg:w-1/3 xl:w-full">
+            <div className="px-4 py-4 border-t border-l border-gray-300 lg:w-1/3 xl:w-full">
               <span className="block text-sm font-semibold text-gray-800">Colour</span>
               <div className="sm:flex lg:block lg:mt-0">
                 <label className="mt-2 sm:w-1/4 flex items-center">
@@ -130,7 +130,7 @@ const SearchFilters = (props) => {
                 </label>
               </div>
             </div>
-            <div className="px-4 py-4 border-t border-l border-gray-400 lg:w-1/3 xl:w-full">
+            <div className="px-4 py-4 border-t border-l border-gray-300 lg:w-1/3 xl:w-full">
               <span className="block text-sm font-semibold text-gray-700">
                 Pokemon Type
               </span>
@@ -211,7 +211,7 @@ const SearchFilters = (props) => {
               </div>
             </div>
           </div>
-          <div className="px-4 py-4 sm:text-right border-t border-gray-400">
+          <div className="px-4 py-4 sm:text-right border-t border-gray-300">
             <button className="sm:w-auto inline-block w-full bg-pink-400 hover:bg-pink-500 font-semibold text-white px-4 py-2 rounded-lg focus:outline-none focus:bg-pink-300 xl:block xl:w-full">
               Update Results
             </button>

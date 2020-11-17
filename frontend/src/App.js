@@ -35,7 +35,7 @@ function App() {
 
 
   return (
-    <div className="min-h-screen antialiased text-gray-900 bg-gray-100 xl:flex xl:flex-col xl:h-screen">
+    <div className="min-h-screen antialiased text-gray-900 bg-gray-100 xl:flex xl:flex-col xl:h-screen xl:border-gray-200 xl:border-t">
       <Navbar />
       <div className="xl:flex-1 xl:flex xl:overflow-y-hidden">
         <SearchFilters />
