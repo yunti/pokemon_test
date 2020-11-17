@@ -1,4 +1,4 @@
-# Pokenmon
+# Pokemon
 
 
 ##api
@@ -10,17 +10,12 @@ The backend folder is in api/
 Run the migrations with
 `python manage.py migrate`
 
-Create an admin with
-`python manage.py createsuperuser`
 
 Then run the server with
 `python manage.py runserver`
 
-Log on to the admin at
-`localhost:8000/admin/`
-
-Create a user to test in the admin
-
+Log on to the api at to list,create, etc... pokemon
+`localhost:8000/api/pokemon`
 
 
 ## Frontend

@@ -2,7 +2,7 @@ import React from "react";
 
 const PokemonCard = (props) => (
   <div className="">
-    <div className="relative pb-5/6">
+    <div className="relative pb-5/6 bg-white">
       <img
         className="absolute h-full rounded-lg w-full object-cover shadow-md"
         src={props.image}
@@ -12,7 +12,7 @@ const PokemonCard = (props) => (
     <div className="relative px-4 -mt-16">
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <div className="flex items-baseline">
-          <span className="inline-block bg-teal-200 text-teal-800 text-xs px-2 rounded-full uppercase font-semibold tracking-wide">
+          <span className="inline-block bg-pink-200 text-pink-800 text-xs px-2 rounded-full uppercase font-semibold tracking-wide">
             1st Gen
           </span>
           <div className="ml-2 text-gray-600 text-xs uppercase font-semibold tracking-wide">
@@ -32,7 +32,7 @@ const PokemonCard = (props) => (
               key={index}
               className={
                 "h-4 w-4 fill-current " +
-                ((index*10) < props.attack ? "text-teal-600" : "text-gray-300")
+                ((index*10) < props.attack ? "text-pink-600" : "text-gray-300")
               }
               viewBox="0 0 24 24"
             >

@@ -7,9 +7,9 @@ const Navbar = (props) => {
   };
   return (
     <header className="bg-gray-900 sm:flex sm:justify-between sm:items-center xl:flex-shrink-0 xl:bg-white">
-      <div className="flex items-center justify-between px-4 py-3 xl:w-72 xl:bg-gray-900 xl:justify-center xl:py-5">
+      <div className="flex items-center justify-between px-4 py-3 xl:w-72 xl:bg-white xl:justify-center xl:py-5">
         <div>
-          <p className="h-8 text-gray-200 text-3xl font-bold">PokemonDB 🐱</p>
+          <p className="h-8 text-gray-200 text-3xl font-bold xl:text-gray-800">PokemonDB 🐱</p>
           {/*<img className="h-8" src={logo} alt="Pokebase" />*/}
         </div>
         <div className="sm:hidden">

@@ -52,16 +52,16 @@ module.exports = {
           },
         },
         radio: {
-          backgroundColor: theme("colors.indigo.200"),
+          backgroundColor: theme("colors.pink.200"),
           borderColor: "transparent",
           width: "1.5em",
           height: "1.5em",
           "&:checked": {
-            backgroundColor: theme("colors.indigo.500"),
+            backgroundColor: theme("colors.pink.500"),
           },
           "&:focus": {
             borderColor: "transparent",
-            backgroundColor: theme("colors.indigo.500"),
+            backgroundColor: theme("colors.pink.500"),
           },
         },
         checkbox: {
@@ -69,7 +69,7 @@ module.exports = {
           height: "1.5em",
           borderColor: "transparent",
           "&:checked": {
-            backgroundColor: theme("colors.indigo.500"),
+            backgroundColor: theme("colors.pink.500"),
           },
           "&:focus": {
             borderColor: "transparent",
